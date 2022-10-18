@@ -1,7 +1,7 @@
 API documentation
 =================
 
-pdf
+Voltage
 ----
-.. automodule:: pdf
+.. automodule:: Voltage
    :members:
