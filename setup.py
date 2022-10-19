@@ -25,7 +25,5 @@ setup(
     url="",
     install_requires=REQUIRES,
     packages=find_packages(),
-    #package_data={"": ["openapi/openapi.yaml"]},
-    #include_package_data=True,
     entry_points={"console_scripts": ["openapi_server=Voltage.Voltage"]},
 )
