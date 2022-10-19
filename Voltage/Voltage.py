@@ -80,7 +80,7 @@ class VoltageData:
     def __str__(self):
         rows=[]
         for i, element in enumerate(self):
-            rows.append(f'INDEX:{i}, TIME: {element[0]}, VOLTAGE: {element[1]} ')
+            rows.append(f'INDEX:{i}, TIME: {element[0]}, VOLTAGE: {element[1]}')
         return '\n'.join(rows)
 
     def __call__(self, timestamp):
